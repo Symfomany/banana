@@ -11,6 +11,8 @@ use App\Movies;
  */
 class MoviesController extends Controller{
 
+
+
     /**
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
@@ -42,6 +44,10 @@ class MoviesController extends Controller{
         ]);
     }
 
+    /**
+     *
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
     public function creer(){
 
         return view("movies/creer");

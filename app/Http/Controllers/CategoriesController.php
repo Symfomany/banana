@@ -14,7 +14,7 @@ use App\Categories;
  */
 class CategoriesController extends Controller{
 
-
+    
     /**
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
